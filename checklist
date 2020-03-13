@@ -1,0 +1,26 @@
+CONFIG PC'S
+ip
+mascara
+gateway
+
+
+
+CONFIG SW 01 E 02
+hostname
+ip
+gateway
+senhas vty,console,enable
+dominio
+chave ssh
+encriptografar senhas
+
+
+
+CONFIG RT
+hostname
+int g 0/0
+int g 0/1
+senhas vty,console,enable
+dominio
+chave ssh
+encriptografar senhas
